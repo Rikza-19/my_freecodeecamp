@@ -1,0 +1,109 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <h1 id="title">Survey Kepuasan Pengguna</h1>
+
+<p id="description">Silakan isi formulir berikut untuk membantu kami meningkatkan layanan.</p>
+
+<form id="survey-form">
+
+  <!-- Label + Input Name -->
+  <label id="name-label" for="name">Nama Lengkap:</label>
+  <input 
+    id="name" 
+    type="text" 
+    name="name" 
+    required 
+    placeholder="Masukkan nama Anda" 
+  />
+
+  <!-- Label + Input Email -->
+  <label id="email-label" for="email">Email Anda:</label>
+  <input 
+    id="email" 
+    type="email" 
+    name="email" 
+    required 
+    placeholder="contoh@email.com" 
+  />
+
+  <!-- Label + Input Number -->
+  <label id="number-label" for="number">Usia (Rentang 10–100):</label>
+  <input 
+    id="number" 
+    type="number" 
+    name="age" 
+    min="10" 
+    max="100" 
+    placeholder="Masukkan usia Anda" 
+  />
+
+  <!-- Dropdown -->
+  <label for="dropdown">Jenis layanan yang Anda gunakan:</label>
+  <select id="dropdown" name="service">
+    <option value="basic">Layanan Basic</option>
+    <option value="premium">Layanan Premium</option>
+  </select>
+
+  <!-- Radio Buttons -->
+  <p>Pilih tingkat kepuasan Anda:</p>
+  <label>
+    <input 
+      type="radio" 
+      name="satisfaction" 
+      value="puas" 
+    /> Puan
+  </label>
+  <label>
+    <input 
+      type="radio" 
+      name="satisfaction" 
+      value="tidak-puas" 
+    /> Tidak Puas
+  </label>
+
+  <!-- Checkboxes -->
+  <p>Fitur mana yang Anda sukai? (Anda dapat memilih lebih dari satu)</p>
+  <label>
+    <input 
+      type="checkbox" 
+      name="features" 
+      value="kecepatan" 
+    /> Kecepatan Layanan
+  </label>
+  <label>
+    <input 
+      type="checkbox" 
+      name="features" 
+      value="desain" 
+    /> Desain Antarmuka
+  </label>
+
+  <!-- Textarea -->
+  <p>Komentar Tambahan:</p>
+  <textarea 
+    name="comments" 
+    rows="4" 
+    placeholder="Tulis saran Anda di sini..."
+  ></textarea>
+
+  <!-- Submit Button -->
+  <input 
+    id="submit" 
+    type="submit" 
+    value="Kirim Formulir" 
+  />
+
+</form>
+
+
+  <body></body>
+</html>
+
+** end of index.html **
+

@@ -1,0 +1,119 @@
+** start of index.html **
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3f9f9;
+    }
+    header {
+      background: #2b7a78;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      margin: 0;
+      padding: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    article {
+      background: white;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    article img {
+      width: 100%;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Event Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="#upcoming-events">Upcoming Events</a></li>
+        <li><a href="#past-events">Past Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Upcoming Events -->
+    <section id="upcoming-events">
+      <h2>Upcoming Events</h2>
+
+      <article>
+        <h3>Community Coding Night</h3>
+        <p>An evening of coding together with local developers.  
+        <br><small>Date: December 12, 2025</small></p>
+      </article>
+
+      <article>
+        <h3>Design & UX Meetup</h3>
+        <p>A workshop exploring user experience and rapid prototyping.  
+        <br><small>Date: January 8, 2026</small></p>
+      </article>
+
+    </section>
+
+    <!-- Past Events -->
+    <section id="past-events">
+      <h2>Past Events</h2>
+
+      <article>
+        <h3>Open Source Sprint</h3>
+        <p>Developers collaborated on open-source projects.  
+        <br><small>Date: October 10, 2025</small></p>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg"
+             alt="Participants working during an open source sprint">
+      </article>
+
+      <article>
+        <h3>Startup Pitch Night</h3>
+        <p>Founders pitched ideas to mentors and investors.  
+        <br><small>Date: September 3, 2025</small></p>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg"
+             alt="Presenter pitching a startup idea on stage">
+      </article>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
+
+
+** end of index.html **
+
